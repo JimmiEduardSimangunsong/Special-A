@@ -1,0 +1,33 @@
+.mybackground{
+    height: 100vh;
+    background: url("../assets/Images/Background/main.jpg");
+    background-size:cover;
+    background-attachment: fixed;
+    background-position: center;
+    justify-content: center;
+    
+}
+
+.intro{
+    height:300px ;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    color: whitesmoke;
+    font-size: 2rem;
+    font-family: 'Fuggles', cursive;;
+}
+
+.line{
+    width: 100%;
+    height: 1.5vh;
+    background-color: red;
+}
+
+.about-us{
+    height: 100vh;
+    background: url("../assets/Images/Background/spiderman.jpg");
+    background-size:100% auto;
+    background-attachment: fixed;
+
+}
