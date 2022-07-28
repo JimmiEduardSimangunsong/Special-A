@@ -6,7 +6,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 
 function NavScroll() {
   return (
-    <Navbar fixed="top"  bg="dark" variant="dark" expand="lg">
+    <Navbar fixed="top"  bg="" variant="dark" expand="lg">
       <Container fluid>
         <Navbar.Brand href="#">Special'A</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />

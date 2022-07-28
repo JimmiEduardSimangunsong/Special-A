@@ -2,7 +2,8 @@
 import './App.css';
 import NavigationBar from './components/NavigationBar';
 import Intro from './components/Intro';
-import "./style/landingPage.css"
+import Information from './components/Information';
+import "./style/landingPage.css";
 
 function App() {
   return (
@@ -13,17 +14,9 @@ function App() {
     </div>
     <div className='line'></div>
 
-    <div className='about-us'>
-  
+    <div className='information-guild'>
+    <Information/>
     </div>
-
-    {/* <div className='trending'>
-      <Trending/>
-    </div>
-
-    <div className='superhero'>
-      <SuperHero/>
-    </div> */}
 
     </div>
   );
